@@ -5,5 +5,5 @@ from django.http import HttpResponse
 
 
 
-def index1(request):
-    return HttpResponse("Ты больная молодец!!")
+def index2(request):
+    return HttpResponse("<h1>Ты большая молодец!!</h1>")
