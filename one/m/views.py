@@ -6,4 +6,4 @@ from django.http import HttpResponse
 
 
 def index2(request):
-    return HttpResponse("<h1>Ты большая молодец!!</h1>")
+    return HttpResponse("Страница приложения MEN")
